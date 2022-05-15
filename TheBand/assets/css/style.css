@@ -93,7 +93,7 @@ html {
     min-height: 1000px;
     padding-top: 50%;
     position: relative;
-    background: url("/HTML,CSS/TheBand/hoangteo0103.github.io/TheBand/assets/img/slider/slider1.jpg") top center / cover no-repeat;
+    background: url("https://github.com/hoangteo0103/hoangteo0103.github.io/blob/main/TheBand/assets/img/slider/slider1.jpg?raw=true") top center / cover no-repeat;
 }
 
 #slider .text-content { 
