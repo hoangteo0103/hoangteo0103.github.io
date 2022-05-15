@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+.text-white {
+    color : white ; 
+}
+
+.clear {
+    clear: both;
+}
+
 html {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -144,7 +152,7 @@ html {
     text-align: justify;
 }
 #content .member-list {
-    overflow: hidden;
+    margin-top : 48px;
 }
 #content .member-item {
     float : left ;
@@ -163,7 +171,34 @@ html {
     width: 100px;
     border-radius: 4px;
 }
+/* Tour Section */
+.tour-section {
+    background-color: black;
+}
 
+.ticket-list {
+    background-color: white;
+    margin-top: 40px;
+}
+
+.ticket-list li {
+    font-size : 15px;
+    color : #757575;    
+    padding : 11px 16px;
+    border-bottom: 1px solid #ddd;
+    list-style: none;
+}
+
+.ticket-list .sold-out{
+    color : white ;
+    margin-left : 16px;
+    padding : 3px 4px ;
+    background-color: #F44336;    
+}
+
+.ticket-list .quantity {
+
+}
 #footer{
 
 }
