@@ -14,6 +14,7 @@ html {
     top:0;
     left :0 ;
     right: 0;
+    z-index: 1;
 }
 
 #navigation {
@@ -90,12 +91,79 @@ html {
 #slider{
     margin-top: 46.5px;
     min-height: 1000px;
+    padding-top: 50%;
+    position: relative;
+    background: url("/HTML,CSS/TheBand/hoangteo0103.github.io/TheBand/assets/img/slider/slider1.jpg") top center / cover no-repeat;
 }
-   
-#content{
 
+#slider .text-content { 
+    color : white ;
+    position : absolute ;
+    bottom : 47px;
+    font-size : 24px;
+    text-align: center;
+    width: 100%;
 }
-   
+#slider .text-heading {
+    font-weight: 400;
+}
+#slider .text-description {
+    margin-top : 25px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+#content .content-section{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding : 64px 0px;
+}
+
+#content .section-heading {
+    text-align: center;
+    font-size : 30px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    font-family: "Segoe UI",Arial,sans-serif;
+}
+
+
+#content .section-subheading {
+    text-align: center;
+    margin-top: 25px;
+    font-family: "Lato", sans-serif;
+    font-size : 15px; 
+    opacity: 0.6;
+    font-style: italic;
+}
+
+#content .about {
+    margin-top : 25px;
+    font-size: 15px;
+    line-height: 1.5;
+    text-align: justify;
+}
+#content .member-list {
+    overflow: hidden;
+}
+#content .member-item {
+    float : left ;
+    width : calc(100%/7);
+    text-align: center;
+}
+
+#content .member-name {
+    font-size: 15px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+#content .member-img {
+    margin-top: 15px;
+    width: 100px;
+    border-radius: 4px;
+}
+
 #footer{
 
 }
