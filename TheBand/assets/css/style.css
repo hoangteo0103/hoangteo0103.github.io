@@ -290,7 +290,7 @@ html {
     width : 900px ;
     max-width: clac(100%-16px);
     min-height : 200px ;
-    
+    animation : modalFadeIn ease 0.5s;
 }
 .modal-container .close-button {
     position: absolute;
@@ -362,6 +362,19 @@ html {
 .modal-help a {
     color : #2196F3;
 }
+
+/* Animation Modal */
+@keyframes modalFadeIn {
+    from{
+        opacity: 0;
+        transform: translateY(-140px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
 #footer{
 
 }
