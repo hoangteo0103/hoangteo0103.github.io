@@ -260,6 +260,7 @@ html {
     margin-top : 16px;
     padding : 11px 16px ;
     display: inline-block;
+    border : none ;
 }
 
 .buy-button:hover {
@@ -375,9 +376,103 @@ html {
     }
 }
 
-#footer{
+.content-section .contact-information {
+    font-family: "Lato", sans-serif;
+    padding : 32px 0px ; 
+    line-height: 1.5;
+    font-size : 18px ; 
+    margin-bottom : 16px;
+    width : 49.999999%;
+    display: inline-block;
+}
 
+.contact-information i {
+    margin-right : 5px; 
+    width : 30px ;
+}
+
+.contact-input {
+    font-size: 15px;
+    float: right;
+    width : 50% ;
+    display: inline-block;
+    padding : 32px 0px ;
+}
+
+.row-padding-container {
+    padding : 0px 8px ;
+    font : 15px ;
+    display: block;
+    margin: 0px -16px 8px -16px;
+}
+.contact-input input {
+    padding : 8px;
+    width: 100%;
+    border : 1px solid #ccc;
+}
+
+.contact-container {
+    width : 50%;
+    float : left ; 
+    padding : 0px 8px ;
+    display: block;
 }
 
 
+.contact-input .contact-message {
+    display: block;
+    width : 100% ; 
+}
 
+.send-button {
+    float : right;
+    color : white ;
+    background-color: black;
+    padding : 8px 16px;
+    margin : 16px 0px ;
+    font-size: 15px;
+    border : none;
+    text-transform: uppercase;
+    font-family: "Lato", sans-serif;
+}
+
+.row-content-padding {
+    padding : 32px 0px ;
+}
+.map-img {
+    width: 100%;
+    filter: grayscale(50%);
+}
+#footer{
+    font-family: "Lato", sans-serif;
+    color : #000;
+    background-color: #f1f1f1!important;
+    padding : 64px 16px;
+    font-size: 24px;  
+    text-align: center;
+    opacity: 0.6;
+}
+
+#footer i {
+    display: inline-block;
+    margin:auto;
+}
+
+#footer i:hover {
+    opacity: 0.6;
+}
+
+#footer p {
+    width:100%;
+    font-family: "Lato", sans-serif;
+    font-size : 15px;
+    line-height: 1.5;
+    display: block;
+    margin : 15px 0px ;
+    text-align: center;
+    display: block;
+}
+
+#footer a {
+    color : black;
+}
