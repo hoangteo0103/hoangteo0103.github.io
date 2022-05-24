@@ -1,0 +1,12 @@
+@media (max-width : 1023px ) and (min-width:740px ) 
+{
+    .tablet {
+
+    }
+}
+@media (max-width:740px)
+{
+    #navigation {
+        display : none ;
+    }
+}

@@ -13,6 +13,7 @@
 }
 
 html {
+    scroll-behavior: smooth;
     font-family: Arial, Helvetica, sans-serif;
 }
 #header {
@@ -33,7 +34,7 @@ html {
     list-style-type: none;
 }
 
-#navigation > li {
+#navigation >li {
     display: inline-block;
 }
 
@@ -101,6 +102,7 @@ html {
     min-height: 1000px;
     padding-top: 50%;
     position: relative;
+    width: 100%;
     background: url("https://github.com/hoangteo0103/hoangteo0103.github.io/blob/main/TheBand/assets/img/slider/slider1.jpg?raw=true") top center / cover no-repeat;
 }
 
@@ -122,6 +124,7 @@ html {
 }
 #content .content-section{
     width: 800px;
+    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
     padding : 64px 0px;
@@ -404,11 +407,12 @@ html {
     font : 15px ;
     display: block;
     margin: 0px -16px 8px -16px;
-}
+}   
 .contact-input input {
     padding : 8px;
     width: 100%;
     border : 1px solid #ccc;
+    outline-color: blue;
 }
 
 .contact-container {
@@ -434,6 +438,11 @@ html {
     border : none;
     text-transform: uppercase;
     font-family: "Lato", sans-serif;
+}
+
+.send-button:hover {
+    color : black ;
+    background-color: #ccc;
 }
 
 .row-content-padding {
@@ -476,3 +485,9 @@ html {
 #footer a {
     color : black;
 }
+
+/* Responsive */
+/* PC >= 1024px */
+/* Table >=740 < 1023 */
+/* Mobile < 740 */
+
