@@ -33,9 +33,12 @@
                             </li>
                             <li class="header__navbar-item">
                                 <span class="header__navbar-item--no_pointer">Kết nối</span>
-                                <a href="" class="header__navbar-icon-link"></a>
-                                <i class="header__navbar-icon fa-brands fa-facebook"></i>
-                                <i class="header__navbar-icon fa-brands fa-instagram"></i>
+                                <a href="" class="header__navbar-icon-link">
+                                    <i class="header__navbar-icon fa-brands fa-facebook"></i>
+                                </a>
+                                <a href="" class="header__navbar-icon-link">
+                                    <i class="header__navbar-icon fa-brands fa-instagram"></i>
+                                </a>
                             </li>
                         </ul>
                         <ul class="header__navbar-list">
@@ -51,7 +54,7 @@
                                             <a href="" class="header__notify-link">
                                                 <img src="https://surfacepro.vn/thumb/468/upload/surfacepro.vn/surface-laptop-4-13.5inch/i5-8gb-512gb/new-sf-laptop-4-13-i5-8gb-512gb_1.jpg" alt="" class="header__notify-img">
                                             <div class="header__notify-info">
-                                                <span class="header__notify-name">Mỹ phẩm Ohui chính hãng</span>
+                                                <span class="header__notify-name">Laptop Surface Pro chính hãng</span>
                                                 <span class="header__notify-description">Mô tả</span>
                                             </div>
                                             </a>
@@ -62,7 +65,7 @@
                                             <a href="" class="header__notify-link">
                                                 <img src="https://surfacepro.vn/thumb/468/upload/surfacepro.vn/surface-laptop-4-13.5inch/i5-8gb-512gb/new-sf-laptop-4-13-i5-8gb-512gb_1.jpg" alt="" class="header__notify-img">
                                             <div class="header__notify-info">
-                                                <span class="header__notify-name">Mỹ phẩm Ohui chính hãng</span>
+                                                <span class="header__notify-name">Laptop Surface Pro chính hãng</span>
                                                 <span class="header__notify-description">Mô tả</span>
                                             </div>
                                             </a>
@@ -73,7 +76,7 @@
                                             <a href="" class="header__notify-link">
                                                 <img src="https://surfacepro.vn/thumb/468/upload/surfacepro.vn/surface-laptop-4-13.5inch/i5-8gb-512gb/new-sf-laptop-4-13-i5-8gb-512gb_1.jpg" alt="" class="header__notify-img">
                                             <div class="header__notify-info">
-                                                <span class="header__notify-name">Mỹ phẩm Ohui chính hãng</span>
+                                                <span class="header__notify-name">Laptop Surface Pro chính hãng</span>
                                                 <span class="header__notify-description">Mô tả</span>
                                             </div>
                                             </a>
@@ -89,8 +92,31 @@
                                 <i class="header__navbar-icon fa-solid fa-circle-question"></i>
                                 <a href="" class="header__navbar-item-link">Trợ giúp</a>
                             </li>
-                            <li class="header__navbar-item header__navbar-item--bold header__navbar-item--seperate ">Đăng ký</li>
-                            <li class="header__navbar-item header__navbar-item--bold">Đăng nhập</li>
+                            <!-- <li class="header__navbar-item header__navbar-item--bold header__navbar-item--seperate ">Đăng ký</li>
+                            <li class="header__navbar-item header__navbar-item--bold">Đăng nhập</li> -->
+                            <div class="header__navbar-item header__navbar-user">
+                                <img src="./assets/img/avatar.jpg" alt="" class="header__navbar-user-img">
+                                <span class="header__navbar-user-name">
+                                    Hoangteo0103
+                                </span>
+                                <ul class="header__navbar-user-menu">
+                                    <li class="header__navbar-user-item">
+                                        <a href="">Tài khoản của tôi</a>
+                                    </li>
+
+                                    <li class="header__navbar-user-item">
+                                        <a href="">Địa chỉ của tôi</a>
+                                    </li>
+
+                                    <li class="header__navbar-user-item">
+                                        <a href="">Đơn mua</a>
+                                    </li>
+
+                                    <li class="header__navbar-user-item">
+                                        <a href="">Đăng xuất</a>
+                                    </li>
+                                </ul>
+                            </div>
                         </ul>
                     </nav>
                     <div class="header__with-search">
@@ -139,9 +165,92 @@
                             </button>
                         </div>
                         <div class="header__cart">
-                            <i class="header__cart-icon fa-solid fa-cart-shopping"></i>
-                            <div class="header__cart-list header__cart-list--nocart">
-                                
+                            <div class="header__cart-wrap">
+                                <i class="header__cart-icon fa-solid fa-cart-shopping"></i>
+                                <span class="header__cart-notice">3</span>
+                                <!-- No cart :header__cart-list--nocart -->
+                                <div class="header__cart-list">
+                                    <img src="./assets/img/no-cart.png" alt="" class="header__cart-list--nocart-img">
+                                    <span class="header__cart-nocart-mssg">
+                                    Chưa có sản phẩm
+                                    </span>
+
+                                    <h4 class="header__cart-heading">Sản phẩm đã thêm</h4>
+                                    <ul class="header__cart-list-item">
+                                        <li class="header__cart-item">
+                                            <img src="https://cdn.tgdd.vn/Products/Images/44/249152/msi-gaming-ge66-raider-11ug-i7-258vn-600x600.jpg" alt="" class="header__cart-item-img">
+                                            <div class="header__cart-item-info">
+                                                <div class="header__cart-item-head">
+                                                    <h5 class="header__cart-item-name">
+                                                        MSI Gaming GF63 10SC 812VN
+                                                    </h5>
+                                                    <div class="header__cart-item-price">
+                                                        <span class="header__cart-item-cost">20.690.000₫</span>
+                                                        <span class="header__cart-item-multiply">x</span>
+                                                        <span class="header__cart-item-quantity">1</span>
+                                                    </div>
+                                                </div>
+                                                <div class="header__cart-item-body">
+                                                    <span class="header__cart-item-description">
+                                                        Phân loại : Kim cương
+                                                    </span>
+                                                    <span class="header__cart-item-remove">
+                                                        Xóa
+                                                    </span>
+                                                </div>
+                                                </div>
+                                        </li>
+
+                                        <li class="header__cart-item">
+                                            <img src="data:image/jpeg;base64,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" alt="" class="header__cart-item-img">
+                                            <div class="header__cart-item-info">
+                                                <div class="header__cart-item-head">
+                                                    <h5 class="header__cart-item-name">
+                                                        MacBook Pro 2021 
+                                                    </h5>
+                                                    <div class="header__cart-item-price">
+                                                        <span class="header__cart-item-cost">61.490.000₫</span>
+                                                        <span class="header__cart-item-multiply">x</span>
+                                                        <span class="header__cart-item-quantity">1</span>
+                                                    </div>
+                                                </div>
+                                                <div class="header__cart-item-body">
+                                                    <span class="header__cart-item-description">
+                                                        Phân loại : Kim cương
+                                                    </span>
+                                                    <span class="header__cart-item-remove">
+                                                        Xóa
+                                                    </span>
+                                                </div>
+                                                </div>
+                                        </li>
+
+                                        <li class="header__cart-item">
+                                            <img src="https://cdn.tgdd.vn/Files/2021/09/22/1384832/surfacepro8_2_1280x720-800-resize.jpg" alt="" class="header__cart-item-img">
+                                            <div class="header__cart-item-info">
+                                                <div class="header__cart-item-head">
+                                                    <h5 class="header__cart-item-name">
+                                                        Surface Pro 8
+                                                    </h5>
+                                                    <div class="header__cart-item-price">
+                                                        <span class="header__cart-item-cost">30.500.500</span>
+                                                        <span class="header__cart-item-multiply">x</span>
+                                                        <span class="header__cart-item-quantity">1</span>
+                                                    </div>
+                                                </div>
+                                                <div class="header__cart-item-body">
+                                                    <span class="header__cart-item-description">
+                                                        Phân loại : Kim cương
+                                                    </span>
+                                                    <span class="header__cart-item-remove">
+                                                        Xóa
+                                                    </span>
+                                                </div>
+                                                </div>
+                                        </li>
+                                    </ul>
+                                     <button class="header__cart-view btn btn--primary">Xem giỏ hàng</button>
+                                </div>
                             </div>
                         </div>
                     </div>
