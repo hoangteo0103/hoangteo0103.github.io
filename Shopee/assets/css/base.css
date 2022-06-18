@@ -256,3 +256,42 @@ html {
     font-size: 1.2rem;
     color : #555;
 }
+
+.pagination {
+    display : flex ;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination-item {
+    margin : 0 12px ;
+    list-style: none;
+}
+
+.pagination-item__link {
+    --height : 30px; 
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 2rem;
+    color : #939393;
+    display: block;
+    min-width: 40px;
+    height: var(--height);
+    line-height: var(--height);
+    text-align: center;
+    border-radius: 2px;
+}
+
+.pagination-item__icon {
+
+}
+
+.pagination-item--active .pagination-item__link{
+    color : var(--white-color);
+    background-color: var(--primary-color);
+}
+
+.pagination-item--active .pagination-item__link:hover {
+    background-color: #ed5c3f;
+}
+
