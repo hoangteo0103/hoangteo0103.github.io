@@ -1,4 +1,4 @@
-## AR Showcase
+## Data Structures Demo
 
-[QuickLook](homepage.html)
+[Data Structures Demo](homepage.html)
 
